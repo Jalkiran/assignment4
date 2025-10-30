@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalkiran Kaur | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: lavender;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header img {
+            width: 110px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        /* GRID LAYOUT */
+        main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        /* LEFT + RIGHT SECTIONS */
+        .left-section, .right-section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: darkblue;
+            border-bottom: 2px solid lavender;
+            padding-bottom: 5px;
+        }
+
+        /* FLEXBOX FOR SKILLS */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: lightblue;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        /* LINKS */
+        a {
+            color: darkblue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Jalkiran Kaur</h1>
+        <p>Student of Artificial Intelligence and Data Science</p>
+        <img src="mypic.jpg" alt="Profile Picture">
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- LEFT SECTION -->
+        <div class="left-section">
+            <h2>About Me</h2>
+            <p>Myself <b>Jalkiran Kaur</b>, a student of <b>Artificial Intelligence and Data Science</b>.  
+            I’m passionate about learning new technologies, solving problems, and exploring web development and AI.</p>
+            <p><i>Quick Summary:</i> Enthusiastic learner • Problem solver • Tech lover</p>
+
+            <h2>Academics</h2>
+            <p>Currently pursuing <b>Bachelor’s in AI & Data Science</b>. Completed higher secondary with a focus on science and mathematics.</p>
+
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jalkiran-kaur-77514a378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+                <li><a href="mailto:jalkirankaur36@gmail.com">E-mail</a></li>            </ul>
+        </div>
+
+        <!-- RIGHT SECTION -->
+        <div class="right-section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">Problem Solving</div>
+                <div class="skill">Teamwork</div>
+                <div class="skill">Communication</div>
+            </div>
+
+            <h2>Projects & Achievements</h2>
+            <ul>
+                <li>Created basic portfolio and recipe webpage using HTML & CSS.</li>
+                <li>Worked on small web layout assignments using Flexbox and Grid.</li>
+                <li>Participated in coding activities at college level.</li>
+            </ul>
+
+            <h2>Goals</h2>
+            <p>To enhance my web development and data science skills, contribute to impactful projects, and grow into a skilled AI professional.</p>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2025 Jalkiran Kaur | All Rights Reserved
+    </footer>
+</body>
+</html>
